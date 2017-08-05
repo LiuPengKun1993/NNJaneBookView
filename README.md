@@ -11,4 +11,4 @@
 ![效果图](https://github.com/liuzhongning/NNJaneBookView/blob/master/GIF/jianshu.gif)
 
 
-- 如有疑问或有建议的地方，欢迎讨论。
+- 博客地址 http://www.jianshu.com/p/c82a83fd400a ,如有疑问或有建议的地方，欢迎讨论。
