@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		696FE9AF1F34221C00069EB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FE9AE1F34221C00069EB3 /* main.m */; };
+		696FE9B21F34221C00069EB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FE9B11F34221C00069EB3 /* AppDelegate.m */; };
+		696FE9B81F34221C00069EB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696FE9B61F34221C00069EB3 /* Main.storyboard */; };
+		696FE9BA1F34221C00069EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696FE9B91F34221C00069EB3 /* Assets.xcassets */; };
+		696FE9BD1F34221C00069EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696FE9BB1F34221C00069EB3 /* LaunchScreen.storyboard */; };
+		696FE9C81F34221C00069EB3 /* NNJaneBookViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FE9C71F34221C00069EB3 /* NNJaneBookViewTests.m */; };
+		696FE9D31F34221C00069EB3 /* NNJaneBookViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FE9D21F34221C00069EB3 /* NNJaneBookViewUITests.m */; };
+		696FE9FE1F3425F500069EB3 /* NNHomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FE9FB1F3425F500069EB3 /* NNHomePageController.m */; };
+		696FEA041F34260400069EB3 /* NNFoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FEA011F34260400069EB3 /* NNFoundController.m */; };
+		696FEA0A1F34261700069EB3 /* NNMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FEA071F34261700069EB3 /* NNMessageController.m */; };
+		696FEA101F34262000069EB3 /* NNMyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FEA0D1F34262000069EB3 /* NNMyController.m */; };
+		696FEA131F34264D00069EB3 /* NNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FEA121F34264D00069EB3 /* NNTabBarController.m */; };
+		696FEA1A1F35666A00069EB3 /* NNPersonalHomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FEA191F35666A00069EB3 /* NNPersonalHomePageController.m */; };
+		696FEA201F3567D500069EB3 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FEA1F1F3567D500069EB3 /* UIViewExt.m */; };
+		696FEA231F356A6000069EB3 /* NNPersonalHomePageHeaderImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FEA221F356A6000069EB3 /* NNPersonalHomePageHeaderImageView.m */; };
+		696FEA261F356E0400069EB3 /* NNContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FEA251F356E0400069EB3 /* NNContentScrollView.m */; };
+		696FEA291F356F9800069EB3 /* NNContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FEA281F356F9800069EB3 /* NNContentTableView.m */; };
+		696FEA2C1F35762600069EB3 /* NNPersonalHomePageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FEA2B1F35762600069EB3 /* NNPersonalHomePageTitleView.m */; };
+		696FEA2F1F35766E00069EB3 /* NNPersonalHomePageHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FEA2E1F35766E00069EB3 /* NNPersonalHomePageHeaderView.m */; };
+		696FEA351F35F06000069EB3 /* NNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FEA341F35F06000069EB3 /* NNNavigationController.m */; };
+		696FEA381F35F5F500069EB3 /* NNsettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696FEA371F35F5F500069EB3 /* NNsettingViewController.m */; };
+		E17E45D01D253AFB7FD86A90 /* libPods-NNJaneBookView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17537C6D7D7C7E33C6B6618A /* libPods-NNJaneBookView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		696FE9C41F34221C00069EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 696FE9A21F34221C00069EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 696FE9A91F34221C00069EB3;
+			remoteInfo = NNJaneBookView;
+		};
+		696FE9CF1F34221C00069EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 696FE9A21F34221C00069EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 696FE9A91F34221C00069EB3;
+			remoteInfo = NNJaneBookView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17537C6D7D7C7E33C6B6618A /* libPods-NNJaneBookView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNJaneBookView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		379BA1E302C2F9D8364BE87B /* Pods-NNJaneBookView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNJaneBookView.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNJaneBookView/Pods-NNJaneBookView.release.xcconfig"; sourceTree = "<group>"; };
+		696FE9AA1F34221C00069EB3 /* NNJaneBookView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNJaneBookView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		696FE9AE1F34221C00069EB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		696FE9B01F34221C00069EB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		696FE9B11F34221C00069EB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		696FE9B71F34221C00069EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		696FE9B91F34221C00069EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		696FE9BC1F34221C00069EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		696FE9BE1F34221C00069EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696FE9C31F34221C00069EB3 /* NNJaneBookViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNJaneBookViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		696FE9C71F34221C00069EB3 /* NNJaneBookViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNJaneBookViewTests.m; sourceTree = "<group>"; };
+		696FE9C91F34221C00069EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696FE9CE1F34221C00069EB3 /* NNJaneBookViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNJaneBookViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		696FE9D21F34221C00069EB3 /* NNJaneBookViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNJaneBookViewUITests.m; sourceTree = "<group>"; };
+		696FE9D41F34221C00069EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696FE9FA1F3425F500069EB3 /* NNHomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNHomePageController.h; sourceTree = "<group>"; };
+		696FE9FB1F3425F500069EB3 /* NNHomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNHomePageController.m; sourceTree = "<group>"; };
+		696FEA001F34260400069EB3 /* NNFoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNFoundController.h; sourceTree = "<group>"; };
+		696FEA011F34260400069EB3 /* NNFoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNFoundController.m; sourceTree = "<group>"; };
+		696FEA061F34261700069EB3 /* NNMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNMessageController.h; sourceTree = "<group>"; };
+		696FEA071F34261700069EB3 /* NNMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNMessageController.m; sourceTree = "<group>"; };
+		696FEA0C1F34262000069EB3 /* NNMyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNMyController.h; sourceTree = "<group>"; };
+		696FEA0D1F34262000069EB3 /* NNMyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNMyController.m; sourceTree = "<group>"; };
+		696FEA111F34264D00069EB3 /* NNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNTabBarController.h; sourceTree = "<group>"; };
+		696FEA121F34264D00069EB3 /* NNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNTabBarController.m; sourceTree = "<group>"; };
+		696FEA181F35666A00069EB3 /* NNPersonalHomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPersonalHomePageController.h; sourceTree = "<group>"; };
+		696FEA191F35666A00069EB3 /* NNPersonalHomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPersonalHomePageController.m; sourceTree = "<group>"; };
+		696FEA1C1F3566F200069EB3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		696FEA1D1F35675400069EB3 /* NNEntityHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNEntityHeaders.h; sourceTree = "<group>"; };
+		696FEA1E1F3567D500069EB3 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		696FEA1F1F3567D500069EB3 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		696FEA211F356A6000069EB3 /* NNPersonalHomePageHeaderImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPersonalHomePageHeaderImageView.h; sourceTree = "<group>"; };
+		696FEA221F356A6000069EB3 /* NNPersonalHomePageHeaderImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPersonalHomePageHeaderImageView.m; sourceTree = "<group>"; };
+		696FEA241F356E0400069EB3 /* NNContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNContentScrollView.h; sourceTree = "<group>"; };
+		696FEA251F356E0400069EB3 /* NNContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNContentScrollView.m; sourceTree = "<group>"; };
+		696FEA271F356F9800069EB3 /* NNContentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNContentTableView.h; sourceTree = "<group>"; };
+		696FEA281F356F9800069EB3 /* NNContentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNContentTableView.m; sourceTree = "<group>"; };
+		696FEA2A1F35762600069EB3 /* NNPersonalHomePageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPersonalHomePageTitleView.h; sourceTree = "<group>"; };
+		696FEA2B1F35762600069EB3 /* NNPersonalHomePageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPersonalHomePageTitleView.m; sourceTree = "<group>"; };
+		696FEA2D1F35766E00069EB3 /* NNPersonalHomePageHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPersonalHomePageHeaderView.h; sourceTree = "<group>"; };
+		696FEA2E1F35766E00069EB3 /* NNPersonalHomePageHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPersonalHomePageHeaderView.m; sourceTree = "<group>"; };
+		696FEA331F35F06000069EB3 /* NNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNavigationController.h; sourceTree = "<group>"; };
+		696FEA341F35F06000069EB3 /* NNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNavigationController.m; sourceTree = "<group>"; };
+		696FEA361F35F5F500069EB3 /* NNsettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNsettingViewController.h; sourceTree = "<group>"; };
+		696FEA371F35F5F500069EB3 /* NNsettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNsettingViewController.m; sourceTree = "<group>"; };
+		C5AAA047F71743472CC30624 /* Pods-NNJaneBookView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNJaneBookView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNJaneBookView/Pods-NNJaneBookView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		696FE9A71F34221C00069EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17E45D01D253AFB7FD86A90 /* libPods-NNJaneBookView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696FE9C01F34221C00069EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696FE9CB1F34221C00069EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016E968C1074FF49E3B7028D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5AAA047F71743472CC30624 /* Pods-NNJaneBookView.debug.xcconfig */,
+				379BA1E302C2F9D8364BE87B /* Pods-NNJaneBookView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		696FE9A11F34221C00069EB3 = {
+			isa = PBXGroup;
+			children = (
+				696FE9AC1F34221C00069EB3 /* NNJaneBookView */,
+				696FE9C61F34221C00069EB3 /* NNJaneBookViewTests */,
+				696FE9D11F34221C00069EB3 /* NNJaneBookViewUITests */,
+				696FE9AB1F34221C00069EB3 /* Products */,
+				016E968C1074FF49E3B7028D /* Pods */,
+				80FB5A29B8FB9FF42CD05AC7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		696FE9AB1F34221C00069EB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				696FE9AA1F34221C00069EB3 /* NNJaneBookView.app */,
+				696FE9C31F34221C00069EB3 /* NNJaneBookViewTests.xctest */,
+				696FE9CE1F34221C00069EB3 /* NNJaneBookViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		696FE9AC1F34221C00069EB3 /* NNJaneBookView */ = {
+			isa = PBXGroup;
+			children = (
+				696FE9B01F34221C00069EB3 /* AppDelegate.h */,
+				696FE9B11F34221C00069EB3 /* AppDelegate.m */,
+				696FE9E81F3423AF00069EB3 /* Main */,
+				696FE9EA1F34250500069EB3 /* HomePage */,
+				696FE9E91F34250500069EB3 /* Found */,
+				696FE9EB1F34250500069EB3 /* Message */,
+				696FE9EC1F34250500069EB3 /* My */,
+				696FE9E01F34239200069EB3 /* Common */,
+				696FE9E61F34239200069EB3 /* Tools */,
+				696FE9E21F34239200069EB3 /* DataService */,
+				696FE9E51F34239200069EB3 /* ThirdLibs */,
+				696FE9B61F34221C00069EB3 /* Main.storyboard */,
+				696FE9B91F34221C00069EB3 /* Assets.xcassets */,
+				696FE9BB1F34221C00069EB3 /* LaunchScreen.storyboard */,
+				696FE9BE1F34221C00069EB3 /* Info.plist */,
+				696FE9AD1F34221C00069EB3 /* Supporting Files */,
+			);
+			path = NNJaneBookView;
+			sourceTree = "<group>";
+		};
+		696FE9AD1F34221C00069EB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				696FE9AE1F34221C00069EB3 /* main.m */,
+				696FEA1C1F3566F200069EB3 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		696FE9C61F34221C00069EB3 /* NNJaneBookViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				696FE9C71F34221C00069EB3 /* NNJaneBookViewTests.m */,
+				696FE9C91F34221C00069EB3 /* Info.plist */,
+			);
+			path = NNJaneBookViewTests;
+			sourceTree = "<group>";
+		};
+		696FE9D11F34221C00069EB3 /* NNJaneBookViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				696FE9D21F34221C00069EB3 /* NNJaneBookViewUITests.m */,
+				696FE9D41F34221C00069EB3 /* Info.plist */,
+			);
+			path = NNJaneBookViewUITests;
+			sourceTree = "<group>";
+		};
+		696FE9E01F34239200069EB3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				696FEA1D1F35675400069EB3 /* NNEntityHeaders.h */,
+				696FEA1E1F3567D500069EB3 /* UIViewExt.h */,
+				696FEA1F1F3567D500069EB3 /* UIViewExt.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		696FE9E21F34239200069EB3 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		696FE9E51F34239200069EB3 /* ThirdLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdLibs;
+			sourceTree = "<group>";
+		};
+		696FE9E61F34239200069EB3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				696FEA141F342F9200069EB3 /* Category */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		696FE9E81F3423AF00069EB3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				696FEA111F34264D00069EB3 /* NNTabBarController.h */,
+				696FEA121F34264D00069EB3 /* NNTabBarController.m */,
+				696FEA331F35F06000069EB3 /* NNNavigationController.h */,
+				696FEA341F35F06000069EB3 /* NNNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		696FE9E91F34250500069EB3 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				696FE9FF1F34260400069EB3 /* Controllers */,
+				696FEA021F34260400069EB3 /* Models */,
+				696FEA031F34260400069EB3 /* Views */,
+			);
+			path = Found;
+			sourceTree = "<group>";
+		};
+		696FE9EA1F34250500069EB3 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				696FE9F91F3425F500069EB3 /* Controllers */,
+				696FE9FD1F3425F500069EB3 /* Views */,
+				696FE9FC1F3425F500069EB3 /* Models */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		696FE9EB1F34250500069EB3 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				696FEA051F34261700069EB3 /* Controllers */,
+				696FEA081F34261700069EB3 /* Models */,
+				696FEA091F34261700069EB3 /* Views */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		696FE9EC1F34250500069EB3 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				696FEA0B1F34262000069EB3 /* Controllers */,
+				696FEA0E1F34262000069EB3 /* Models */,
+				696FEA0F1F34262000069EB3 /* Views */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		696FE9F91F3425F500069EB3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				696FE9FA1F3425F500069EB3 /* NNHomePageController.h */,
+				696FE9FB1F3425F500069EB3 /* NNHomePageController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		696FE9FC1F3425F500069EB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		696FE9FD1F3425F500069EB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		696FE9FF1F34260400069EB3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				696FEA001F34260400069EB3 /* NNFoundController.h */,
+				696FEA011F34260400069EB3 /* NNFoundController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		696FEA021F34260400069EB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		696FEA031F34260400069EB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		696FEA051F34261700069EB3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				696FEA061F34261700069EB3 /* NNMessageController.h */,
+				696FEA071F34261700069EB3 /* NNMessageController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		696FEA081F34261700069EB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		696FEA091F34261700069EB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		696FEA0B1F34262000069EB3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				696FEA0C1F34262000069EB3 /* NNMyController.h */,
+				696FEA0D1F34262000069EB3 /* NNMyController.m */,
+				696FEA181F35666A00069EB3 /* NNPersonalHomePageController.h */,
+				696FEA191F35666A00069EB3 /* NNPersonalHomePageController.m */,
+				696FEA361F35F5F500069EB3 /* NNsettingViewController.h */,
+				696FEA371F35F5F500069EB3 /* NNsettingViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		696FEA0E1F34262000069EB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		696FEA0F1F34262000069EB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				696FEA211F356A6000069EB3 /* NNPersonalHomePageHeaderImageView.h */,
+				696FEA221F356A6000069EB3 /* NNPersonalHomePageHeaderImageView.m */,
+				696FEA2D1F35766E00069EB3 /* NNPersonalHomePageHeaderView.h */,
+				696FEA2E1F35766E00069EB3 /* NNPersonalHomePageHeaderView.m */,
+				696FEA241F356E0400069EB3 /* NNContentScrollView.h */,
+				696FEA251F356E0400069EB3 /* NNContentScrollView.m */,
+				696FEA271F356F9800069EB3 /* NNContentTableView.h */,
+				696FEA281F356F9800069EB3 /* NNContentTableView.m */,
+				696FEA2A1F35762600069EB3 /* NNPersonalHomePageTitleView.h */,
+				696FEA2B1F35762600069EB3 /* NNPersonalHomePageTitleView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		696FEA141F342F9200069EB3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		80FB5A29B8FB9FF42CD05AC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17537C6D7D7C7E33C6B6618A /* libPods-NNJaneBookView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		696FE9A91F34221C00069EB3 /* NNJaneBookView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696FE9D71F34221C00069EB3 /* Build configuration list for PBXNativeTarget "NNJaneBookView" */;
+			buildPhases = (
+				490BE88702C6D5B42D1AAB79 /* [CP] Check Pods Manifest.lock */,
+				696FE9A61F34221C00069EB3 /* Sources */,
+				696FE9A71F34221C00069EB3 /* Frameworks */,
+				696FE9A81F34221C00069EB3 /* Resources */,
+				4D5D0384CA25A6F8E29071DC /* [CP] Embed Pods Frameworks */,
+				318E07BEF8B4938DCD5A811B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNJaneBookView;
+			productName = NNJaneBookView;
+			productReference = 696FE9AA1F34221C00069EB3 /* NNJaneBookView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		696FE9C21F34221C00069EB3 /* NNJaneBookViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696FE9DA1F34221C00069EB3 /* Build configuration list for PBXNativeTarget "NNJaneBookViewTests" */;
+			buildPhases = (
+				696FE9BF1F34221C00069EB3 /* Sources */,
+				696FE9C01F34221C00069EB3 /* Frameworks */,
+				696FE9C11F34221C00069EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				696FE9C51F34221C00069EB3 /* PBXTargetDependency */,
+			);
+			name = NNJaneBookViewTests;
+			productName = NNJaneBookViewTests;
+			productReference = 696FE9C31F34221C00069EB3 /* NNJaneBookViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		696FE9CD1F34221C00069EB3 /* NNJaneBookViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696FE9DD1F34221C00069EB3 /* Build configuration list for PBXNativeTarget "NNJaneBookViewUITests" */;
+			buildPhases = (
+				696FE9CA1F34221C00069EB3 /* Sources */,
+				696FE9CB1F34221C00069EB3 /* Frameworks */,
+				696FE9CC1F34221C00069EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				696FE9D01F34221C00069EB3 /* PBXTargetDependency */,
+			);
+			name = NNJaneBookViewUITests;
+			productName = NNJaneBookViewUITests;
+			productReference = 696FE9CE1F34221C00069EB3 /* NNJaneBookViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		696FE9A21F34221C00069EB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NN;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zhongNing;
+				TargetAttributes = {
+					696FE9A91F34221C00069EB3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					696FE9C21F34221C00069EB3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 696FE9A91F34221C00069EB3;
+					};
+					696FE9CD1F34221C00069EB3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 696FE9A91F34221C00069EB3;
+					};
+				};
+			};
+			buildConfigurationList = 696FE9A51F34221C00069EB3 /* Build configuration list for PBXProject "NNJaneBookView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 696FE9A11F34221C00069EB3;
+			productRefGroup = 696FE9AB1F34221C00069EB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				696FE9A91F34221C00069EB3 /* NNJaneBookView */,
+				696FE9C21F34221C00069EB3 /* NNJaneBookViewTests */,
+				696FE9CD1F34221C00069EB3 /* NNJaneBookViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		696FE9A81F34221C00069EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696FE9BD1F34221C00069EB3 /* LaunchScreen.storyboard in Resources */,
+				696FE9BA1F34221C00069EB3 /* Assets.xcassets in Resources */,
+				696FE9B81F34221C00069EB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696FE9C11F34221C00069EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696FE9CC1F34221C00069EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		318E07BEF8B4938DCD5A811B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNJaneBookView/Pods-NNJaneBookView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		490BE88702C6D5B42D1AAB79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D5D0384CA25A6F8E29071DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNJaneBookView/Pods-NNJaneBookView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		696FE9A61F34221C00069EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696FE9B21F34221C00069EB3 /* AppDelegate.m in Sources */,
+				696FE9AF1F34221C00069EB3 /* main.m in Sources */,
+				696FEA261F356E0400069EB3 /* NNContentScrollView.m in Sources */,
+				696FEA131F34264D00069EB3 /* NNTabBarController.m in Sources */,
+				696FEA1A1F35666A00069EB3 /* NNPersonalHomePageController.m in Sources */,
+				696FEA201F3567D500069EB3 /* UIViewExt.m in Sources */,
+				696FE9FE1F3425F500069EB3 /* NNHomePageController.m in Sources */,
+				696FEA041F34260400069EB3 /* NNFoundController.m in Sources */,
+				696FEA0A1F34261700069EB3 /* NNMessageController.m in Sources */,
+				696FEA2C1F35762600069EB3 /* NNPersonalHomePageTitleView.m in Sources */,
+				696FEA291F356F9800069EB3 /* NNContentTableView.m in Sources */,
+				696FEA101F34262000069EB3 /* NNMyController.m in Sources */,
+				696FEA231F356A6000069EB3 /* NNPersonalHomePageHeaderImageView.m in Sources */,
+				696FEA381F35F5F500069EB3 /* NNsettingViewController.m in Sources */,
+				696FEA2F1F35766E00069EB3 /* NNPersonalHomePageHeaderView.m in Sources */,
+				696FEA351F35F06000069EB3 /* NNNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696FE9BF1F34221C00069EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696FE9C81F34221C00069EB3 /* NNJaneBookViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696FE9CA1F34221C00069EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696FE9D31F34221C00069EB3 /* NNJaneBookViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		696FE9C51F34221C00069EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 696FE9A91F34221C00069EB3 /* NNJaneBookView */;
+			targetProxy = 696FE9C41F34221C00069EB3 /* PBXContainerItemProxy */;
+		};
+		696FE9D01F34221C00069EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 696FE9A91F34221C00069EB3 /* NNJaneBookView */;
+			targetProxy = 696FE9CF1F34221C00069EB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		696FE9B61F34221C00069EB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696FE9B71F34221C00069EB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		696FE9BB1F34221C00069EB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696FE9BC1F34221C00069EB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		696FE9D51F34221C00069EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		696FE9D61F34221C00069EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		696FE9D81F34221C00069EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AAA047F71743472CC30624 /* Pods-NNJaneBookView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NNJaneBookView/PrefixHeader.pch";
+				INFOPLIST_FILE = NNJaneBookView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongNing.NNJaneBookView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		696FE9D91F34221C00069EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379BA1E302C2F9D8364BE87B /* Pods-NNJaneBookView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NNJaneBookView/PrefixHeader.pch";
+				INFOPLIST_FILE = NNJaneBookView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongNing.NNJaneBookView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		696FE9DB1F34221C00069EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NNJaneBookViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongNing.NNJaneBookViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNJaneBookView.app/NNJaneBookView";
+			};
+			name = Debug;
+		};
+		696FE9DC1F34221C00069EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NNJaneBookViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongNing.NNJaneBookViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNJaneBookView.app/NNJaneBookView";
+			};
+			name = Release;
+		};
+		696FE9DE1F34221C00069EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NNJaneBookViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongNing.NNJaneBookViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NNJaneBookView;
+			};
+			name = Debug;
+		};
+		696FE9DF1F34221C00069EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NNJaneBookViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongNing.NNJaneBookViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NNJaneBookView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		696FE9A51F34221C00069EB3 /* Build configuration list for PBXProject "NNJaneBookView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696FE9D51F34221C00069EB3 /* Debug */,
+				696FE9D61F34221C00069EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696FE9D71F34221C00069EB3 /* Build configuration list for PBXNativeTarget "NNJaneBookView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696FE9D81F34221C00069EB3 /* Debug */,
+				696FE9D91F34221C00069EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696FE9DA1F34221C00069EB3 /* Build configuration list for PBXNativeTarget "NNJaneBookViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696FE9DB1F34221C00069EB3 /* Debug */,
+				696FE9DC1F34221C00069EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696FE9DD1F34221C00069EB3 /* Build configuration list for PBXNativeTarget "NNJaneBookViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696FE9DE1F34221C00069EB3 /* Debug */,
+				696FE9DF1F34221C00069EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 696FE9A21F34221C00069EB3 /* Project object */;
+}
