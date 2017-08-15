@@ -42,6 +42,7 @@
     self.headerImageView          = [[NNPersonalHomePageHeaderImageView alloc] initWithImage:[UIImage imageNamed:@"header"]];
     [self.headerImageView reloadSizeWithScrollView:self.dynamicTableView];
     self.navigationItem.titleView = self.headerImageView;
+    
     [self.headerImageView handleClickActionWithBlock:^{
         NSLog(@"你点击了头像按钮");
     }];

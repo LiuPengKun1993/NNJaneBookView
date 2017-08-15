@@ -480,6 +480,7 @@
 				TargetAttributes = {
 					696FE9A91F34221C00069EB3 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K78GC28Z9X;
 						ProvisioningStyle = Automatic;
 					};
 					696FE9C21F34221C00069EB3 = {
@@ -761,6 +762,7 @@
 			baseConfigurationReference = C5AAA047F71743472CC30624 /* Pods-NNJaneBookView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K78GC28Z9X;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/NNJaneBookView/PrefixHeader.pch";
 				INFOPLIST_FILE = NNJaneBookView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -774,6 +776,7 @@
 			baseConfigurationReference = 379BA1E302C2F9D8364BE87B /* Pods-NNJaneBookView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K78GC28Z9X;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/NNJaneBookView/PrefixHeader.pch";
 				INFOPLIST_FILE = NNJaneBookView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
