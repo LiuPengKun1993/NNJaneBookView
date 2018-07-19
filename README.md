@@ -12,3 +12,8 @@
 
 
 - 博客地址 http://www.jianshu.com/p/c82a83fd400a ,如有疑问或有建议的地方，欢迎讨论。
+
+
+### License
+
+This repositorie is released under the under [MIT License](https://github.com/liuzhongning/NNJaneBookView/blob/master/LICENSE)
