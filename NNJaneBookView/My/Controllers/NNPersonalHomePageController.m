@@ -41,7 +41,10 @@
 - (void)setupHeaderImageView {
     self.headerImageView          = [[NNPersonalHomePageHeaderImageView alloc] initWithImage:[UIImage imageNamed:@"header"]];
     [self.headerImageView reloadSizeWithScrollView:self.dynamicTableView];
-    self.navigationItem.titleView = self.headerImageView;
+     //y = 44-30
+    self.headerImageView.frame = CGRectMake(NNScreenWidth/2-30, 14, 60, 60);
+    [[UIApplication sharedApplication].keyWindow addSubview:self.headerImageView];
+
     
     [self.headerImageView handleClickActionWithBlock:^{
         NSLog(@"你点击了头像按钮");
@@ -174,6 +177,11 @@
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+-(void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.headerImageView removeFromSuperview];
 }
 
 - (void)dealloc {
