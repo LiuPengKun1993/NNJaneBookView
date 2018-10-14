@@ -179,6 +179,11 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
+-(void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.headerImageView removeFromSuperview];
+}
+
 - (void)dealloc {
     NSLog(@"控制器已销毁");
 }
