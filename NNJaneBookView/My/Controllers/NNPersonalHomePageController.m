@@ -41,7 +41,10 @@
 - (void)setupHeaderImageView {
     self.headerImageView          = [[NNPersonalHomePageHeaderImageView alloc] initWithImage:[UIImage imageNamed:@"header"]];
     [self.headerImageView reloadSizeWithScrollView:self.dynamicTableView];
-    self.navigationItem.titleView = self.headerImageView;
+     //y = 44-30
+    self.headerImageView.frame = CGRectMake(NNScreenWidth/2-30, 14, 60, 60);
+    [[UIApplication sharedApplication].keyWindow addSubview:self.headerImageView];
+
     
     [self.headerImageView handleClickActionWithBlock:^{
         NSLog(@"你点击了头像按钮");
